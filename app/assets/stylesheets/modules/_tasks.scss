@@ -103,6 +103,12 @@ height: 100vh;
       width: 100px;
     }
   }
+  &__bar__list__user{
+    font-size: 40px;
+    text-decoration: none;
+    color: black;
+  }
+  
   &__bar__list{
     width: 80%;
     border: black solid 1px;
