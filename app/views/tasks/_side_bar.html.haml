@@ -3,6 +3,10 @@
     .input__box
       %input{type: "text", class: "input__box__search", placeholder: "検索する"}
     %input{type: "submit", class: "submit-btn"}
+  .side__bar__list__user
+    = link_to edit_user_path(current_user) do
+      ユーザー名 :
+      = current_user.name
   .side__bar__list
     .side__bar__list__name
       現在のタスク一覧
